@@ -1,0 +1,220 @@
+# HEALTH CATALYST INDIA EMPLOYEE HANDBOOK & POLICIES
+# Effective Date: January 1, 2025
+# Quick Reference Guide for HR Assistant
+
+## COMPANY INFORMATION
+- **Company**: Health Catalyst India Private Limited (Formerly KPI Ninja India Private Limited)
+- **Registered Office**: Survey 34, 2nd Floor, Awfis – Lorven Tiara, Kothaguda Junction, Kondapur, Hyderabad 500084
+- **CIN**: U72900TG2020PTC146156
+- **GSTIN**: 36AAICK4542Q1ZX
+- **Mission**: Be the catalyst for massive, measurable, data-informed healthcare improvement
+
+## KEY CONTACT INFORMATION
+- **HR/People Operations**: hcatindia.pops@healthcatalyst.com
+- **IT Support**: hcatindia.itops@healthcatalyst.com
+- **Payroll Queries**: mypay@pmry.in
+- **CEO**: Dan Burton
+- **India Operations SVP**: Jai Parimi
+- **People Operations Lead**: Arpana Chinthala
+
+## LEAVE POLICIES - QUICK REFERENCE
+
+### PRIVILEGE LEAVE (PL)
+- **Entitlement**: 15 days per year
+- **Eligibility**: After completing 241 days
+- **Carry Forward**: Maximum 60 days
+- **Notice**: 1 month advance for 1+ week leave, 2 weeks for shorter
+- **Encashment**: Up to 8 days auto-encashed in January
+
+### SICK LEAVE & CASUAL LEAVE
+- **Sick Leave**: 12 days per year
+- **Casual Leave**: 12 days per year
+- **Medical Certificate**: Required for 3+ consecutive days
+- **Application**: Via Workday before 9 AM for sick leave
+
+### MATERNITY LEAVE
+- **Duration**: 26 weeks (fewer than 2 children) or 12 weeks (2+ children)
+- **Eligibility**: 80 days work in preceding 12 months
+- **Application**: 60 days advance notice to hcatindia.pops@healthcatalyst.com
+- **Additional**: Adoption leave (12 weeks), Miscarriage leave (6 weeks)
+
+### PATERNITY LEAVE
+- **Duration**: 1 calendar week
+- **Eligibility**: 80 days work in preceding 12 months
+- **Application**: 60 days advance notice
+
+### FLEXIBLE PTO
+- Unlimited days with manager approval
+- For rest, relaxation, personal interests
+
+### HOLIDAYS
+- **Mandatory Paid**: 15 days per year
+- **Optional Paid**: 3 days per year
+- **Election Holiday**: 1 day (apply 2 weeks advance)
+
+## HYBRID WORK POLICY
+
+### ELIGIBILITY
+- Available after 3 months continuous employment
+- No pending disciplinary actions
+- Manager approval required
+
+### QUARTERLY WFO REQUIREMENT
+- Every team member: 1 week per quarter in office
+- Schedule: Communicated 3 months advance
+- Non-compliance penalty: 5-15 business days additional office work
+
+### BENEFITS FOR HYBRID WORKERS
+- **Internet Reimbursement**: Up to INR 6,000/month
+- **Home Office Setup**: INR 26,320 one-time allowance
+- **Mobile Device**: INR 120,320 every 2 years (after 12 months)
+
+## COMPENSATION & BENEFITS
+
+### SALARY
+- **Payment**: Monthly, before 5th of each month
+- **Probation Period**: 3 months
+- **Notice Period**: 3 months (probation and after confirmation)
+
+### PROVIDENT FUND (PF)
+- Mandatory for eligible employees
+- Both employee and company contribute
+- Transfer from previous PF using Universal Account Number (UAN)
+
+### REIMBURSEMENT BENEFITS
+1. **Mobile/Internet**: INR 6,000/month (hybrid/remote workers)
+2. **Health & Wellness**: INR 15,800/year (prorated by joining quarter)
+3. **Home Office Setup**: INR 26,320 one-time (after 3 months, hybrid only)
+4. **Continuing Education**: INR 25,000 (first year), INR 225,600 (after 12 months)
+5. **Mobile Device**: INR 120,320 every 2 years (after 12 months, hybrid/remote)
+
+### REIMBURSEMENT PROCESS
+- Submit via Pluxee app (mobile/internet) or Workday (others)
+- Deadline: By 20th of each month
+- Invoices must have team member's name and valid GST
+
+## DISCIPLINARY POLICY
+
+### MISCONDUCT EXAMPLES
+- Absenteeism, poor timekeeping
+- Policy violations
+- Inappropriate behavior
+- Unauthorized absence 3+ days = job abandonment
+
+### DISCIPLINARY ACTIONS
+1. Informal counseling
+2. First written warning
+3. Second written warning
+4. Final warning/suspension (max 8 days)
+5. Termination
+
+### GROSS MISCONDUCT (IMMEDIATE TERMINATION)
+- Theft, breach of trust
+- Drug/alcohol use on premises
+- Violence, harassment
+- Confidentiality breach causing harm
+
+## INTERNAL HIRING POLICY
+
+### ELIGIBILITY FOR LATERAL MOVES
+- 12+ months in current role
+- Satisfactory performance (no active PIP)
+- No disciplinary actions
+- Manager approval required
+- 500+ word justification document
+
+### TRANSITION PERIOD
+- 45-90 days knowledge transfer
+- Based on business requirements
+
+## WORKDAY LEAVE APPLICATION PROCESS
+1. Go to Workday → Click "Request Absence"
+2. Select date → Click "Request Absence"
+3. Choose "Regular Time Off"
+4. Select leave type (PTO options available)
+5. Choose reason and submit
+
+## PLUXEE CARD ACTIVATION
+- **Website**: https://activation.consumers.pluxee.in
+- **Need**: 12-digit Card Reference Number
+- **Options**: Minimum KYC or Full KYC (INR 2,00,000 limit)
+- **Documents**: PAN card or Aadhaar verification
+
+## EMPLOYEE TEAM STRUCTURE
+
+### LEADERSHIP
+- **CEO**: Dan Burton
+- **India Operations SVP**: Jai Parimi
+
+### PEOPLE OPERATIONS
+- **Lead**: Arpana Chinthala
+- **Associate**: Meghana Karimerakala
+- **Representative**: Shallvi Kriti
+- **Talent Acquisition**: Saikumar Niletam
+
+### RESEARCH & DEVELOPMENT
+- **Manager**: Jeevan Boyini
+- **Engineers**: Sourabh Soni, Venkat Anirudh Vemula, Sameer Popuri (Sr.)
+- **Agile Managers**: Sreedhar Divi, JayaSree R
+- **Intern**: Piyush Dewangan (Mentor: Sourabh Soni)
+- **Intern**: Chiranjivi Chandu pedagadi (Mentor: Venkat Anirudh Vemula)
+
+### SUPPORT
+- **Office Manager**: Satish Mullapudi
+- **IT Support**: Madhuteja Mangali
+
+## IMPORTANT POLICIES TO REMEMBER
+
+### CODE OF CONDUCT
+- Be proactive in duties
+- Act consistently with company values
+- Report policy violations
+- Maintain professional appearance
+
+### EQUAL OPPORTUNITY
+- Merit-based employment
+- No discrimination based on gender, caste, religion, age, etc.
+- Inclusive workplace commitment
+
+### CONFIDENTIALITY
+- Maintain confidentiality during and after employment
+- No disclosure of client information
+- Report security concerns to IT
+
+### GIFTS POLICY
+- Maximum acceptable value: INR 1,500
+- No monetary gifts (cash, gold)
+- Report violations to manager
+
+### CYBERSECURITY
+- Business use only for company systems
+- Pre-approved personal apps: Outlook, Teams, Slack
+- Strong passwords required
+- Report security concerns to hcatindia.itops@healthcatalyst.com
+
+## EMERGENCY CONTACTS & ESCALATION
+- General HR: hcatindia.pops@healthcatalyst.com
+- IT Issues: hcatindia.itops@healthcatalyst.com
+- Payroll: mypay@pmry.in
+- Harassment/Discrimination: Report to supervisor or People Operations immediately
+
+## QUICK ANSWERS FOR COMMON QUESTIONS
+
+**Q: How do I apply for leave?**
+A: Via Workday - at least 7 days advance for general leave, same day for sick leave
+
+**Q: What's the hybrid work policy?**
+A: Available after 3 months, requires 1 week per quarter in office, includes internet reimbursement
+
+**Q: How much sick leave do I get?**
+A: 12 days per year, medical certificate needed for 3+ consecutive days
+
+**Q: What benefits are available?**
+A: Mobile/internet (6K/month), wellness (15.8K/year), home office setup (26K one-time), continuing education (25K-225K)
+
+**Q: Who is Piyush Dewangan?**
+A: Java Intern in R&D, mentor is Sourabh Soni, manager is Jeevan Boyini
+
+**Q: How to activate Pluxee card?**
+A: Go to activation.consumers.pluxee.in, need 12-digit card reference number, choose Full KYC for higher limit
+
