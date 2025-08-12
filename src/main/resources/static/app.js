@@ -3,8 +3,12 @@
 let sessionId = null;
 let isLoading = false;
 let messageCount = 0;
+let healthCatalystKnowledge = null;
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Load embedded knowledge base
+    loadHealthCatalystKnowledge();
+
     // Generate session ID
     sessionId = generateSessionId();
 
@@ -25,11 +29,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Change color based on character count
         if (count > 800) {
-            charCount.style.color = 'var(--danger-color)';
+            charCount.style.color = '#dc2626';
         } else if (count > 600) {
-            charCount.style.color = 'var(--warning-color)';
+            charCount.style.color = '#f59e0b';
         } else {
-            charCount.style.color = 'var(--text-muted)';
+            charCount.style.color = '#6b7280';
         }
     });
 
@@ -44,6 +48,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // Auto-focus input
     input.focus();
 });
+
+function loadHealthCatalystKnowledge() {
+    try {
+        const knowledgeScript = document.getElementById('health-catalyst-knowledge');
+        if (knowledgeScript) {
+            healthCatalystKnowledge = JSON.parse(knowledgeScript.textContent);
+            console.log('Health Catalyst knowledge base loaded successfully');
+        }
+    } catch (error) {
+        console.error('Error loading knowledge base:', error);
+    }
+}
 
 function generateSessionId() {
     return 'session_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
@@ -67,7 +83,7 @@ async function handleFormSubmit(e) {
     // Clear input and add user message
     input.value = '';
     document.querySelector('.char-count').textContent = '0/1000';
-    document.querySelector('.char-count').style.color = 'var(--text-muted)';
+    document.querySelector('.char-count').style.color = '#6b7280';
 
     // Add user message to chat
     addMessage(message, 'user');
@@ -80,15 +96,20 @@ async function handleFormSubmit(e) {
     isLoading = true;
 
     try {
+        // Prepare enhanced request with knowledge base context
+        const enhancedRequest = {
+            message: message,
+            sessionId: sessionId,
+            knowledgeBase: healthCatalystKnowledge,
+            context: generateContextPrompt(message)
+        };
+
         const response = await fetch('/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({
-                message: message,
-                sessionId: sessionId
-            })
+            body: JSON.stringify(enhancedRequest)
         });
 
         if (!response.ok) {
@@ -109,11 +130,31 @@ async function handleFormSubmit(e) {
     } catch (error) {
         console.error('Error:', error);
         hideProfessionalTypingIndicator();
-        addMessage('Sorry, I\'m experiencing technical difficulties. Please try again.', 'bot');
+        addMessage('Sorry, I\'m experiencing technical difficulties. Please try again or contact IT support at hcatindia.itops@healthcatalyst.com.', 'bot');
     } finally {
         isLoading = false;
         input.focus();
     }
+}
+
+function generateContextPrompt(userMessage) {
+    if (!healthCatalystKnowledge) return '';
+
+    // Create a comprehensive context for the AI
+    return `You are the official Health Catalyst India HR Assistant chatbot. Use the provided knowledge base to answer questions accurately and professionally.
+
+    Company: ${healthCatalystKnowledge.companyInfo.name}
+    Mission: ${healthCatalystKnowledge.companyInfo.mission}
+
+    Key Guidelines:
+    - Always provide accurate information based on the knowledge base
+    - For leave applications, direct users to Workday
+    - For technical issues, refer to IT support: ${healthCatalystKnowledge.contacts.itSupport}
+    - For HR queries, refer to: ${healthCatalystKnowledge.contacts.hr}
+    - Be helpful, professional, and concise
+    - If you don't know something, admit it and suggest contacting the appropriate department
+
+    User Question: ${userMessage}`;
 }
 
 function addMessage(message, sender) {
